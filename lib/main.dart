@@ -101,7 +101,7 @@ class MyHomePage extends StatelessWidget {
                       children: [
                         Icon(Icons.email, color: Colors.red),
                         SizedBox(width: 8),
-                        Text("irfanmubin18@gmail.com")
+                        Text("irfanmubin18@gmail.com", style: TextStyle(color: Colors.white)),
                       ],
                     ),
 
@@ -111,7 +111,7 @@ class MyHomePage extends StatelessWidget {
                       children: [
                         Icon(Icons.phone, color: Colors.green),
                         SizedBox(width: 8),
-                        Text("014-366-6069")
+                        Text("014-366-6069", style: TextStyle(color: Colors.white)),
                       ],
                     ),
 
@@ -121,7 +121,7 @@ class MyHomePage extends StatelessWidget {
                       children: [
                         Icon(Icons.facebook, color: Colors.blue),
                         SizedBox(width: 8),
-                        Text("irfan.mubin")
+                        Text("irfan.mubin", style: TextStyle(color: Colors.white))
                       ],
                     ),
                   ],

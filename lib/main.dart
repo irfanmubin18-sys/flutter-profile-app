@@ -97,13 +97,33 @@ class MyHomePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: const [
 
-                    Icon(Icons.email, color: Colors.red),
+                    Row(
+                      children: [
+                        Icon(Icons.email, color: Colors.red),
+                        SizedBox(width: 8),
+                        Text("irfanmubin18@gmail.com")
+                      ],
+                    ),
+
                     SizedBox(width: 20),
 
-                    Icon(Icons.phone, color: Colors.green),
+                    Row(
+                      children: [
+                        Icon(Icons.phone, color: Colors.green),
+                        SizedBox(width: 8),
+                        Text("014-366-6069")
+                      ],
+                    ),
+
                     SizedBox(width: 20),
 
-                    Icon(Icons.facebook, color: Colors.blue),
+                    Row(
+                      children: [
+                        Icon(Icons.facebook, color: Colors.blue),
+                        SizedBox(width: 8),
+                        Text("irfan.mubin")
+                      ],
+                    ),
                   ],
                 ),
 
